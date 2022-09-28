@@ -1,0 +1,342 @@
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width: 1600px) {
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .video-js {
+    width: 600px;
+    height: 330px;
+  }
+  .tokens-area .tokens {
+    margin: 0;
+  }
+  .tokens-area .tokens .token-body {
+    padding: 50px 25px;
+  }
+  footer .footer-bottom {
+    height: auto;
+    line-height: 26px;
+    padding: 50px 0;
+    text-align: center;
+  }
+  footer .footer-bottom .foo-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .logo-area {
+    text-align: center;
+    padding-left: 0;
+  }
+  header .menu-area {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .slider {
+    height: 300px;
+  }
+  .video-js {
+    width: 480px;
+    height: 249px;
+  }
+  .mobile-menu-area {
+    display: block !important;
+  }
+  .my-video-dimensions {
+    width: 480px;
+    height: 249px;
+  }
+  .video-area .videos-heding .videos-box .video-js .vjs-big-play-button {
+    top: 24%;
+  }
+  .tokens-area .tokens {
+    display: block;
+    margin: 0 0 50px;
+  }
+  .tokens-area .tokens .token-body {
+    display: block;
+  }
+  .tokens-area .token-con {
+    margin: 0;
+  }
+  .e_chart_3 div {
+    margin: 0 auto;
+  }
+  .token-details .cart-list .label-chatrs {
+    padding: 62px 100px;
+  }
+  .token-details .owl-controls .owl-buttons div.owl-prev {
+    left: 0;
+    border-radius: 0 15px 15px 0;
+  }
+  .token-details .owl-controls .owl-buttons div.owl-next {
+    right: 0;
+    border-radius: 15px 0 0 15px;
+  }
+  .blog-area .owl-controls .owl-buttons {
+    display: none;
+  }
+  header .mobilemenu .mean-container .mean-nav {
+    margin-top: 38px;
+  }
+  .video-des .deslidt ul li .serials:before,
+  .video-des .deslidt ul li .serials span.cre:before,
+  .video-des .deslidt ul li .serials span.cre:after {
+    display: none;
+  }
+  #clockdiv > div,
+  #clockdiv2 > div {
+    margin-bottom: 20px;
+  }
+  .slider a.previousButton,
+  .slider a.nextButton {
+    display: none;
+  }
+  .easypiechart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-area .team-list {
+    height: auto;
+  }
+  .team2-area .team-list {
+    height: auto;
+  }
+  .slider-area .carousel {
+    padding: 30vh 0;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .video-js {
+    width: 400px;
+    height: 207px;
+  }
+  .my-video-dimensions {
+    width: 400px;
+    height: 207px;
+  }
+  .video-area .videos-heding .videos-box .video-js .vjs-big-play-button {
+    top: 24%;
+  }
+  .video-area .videos-heding h2 {
+    font-size: 36px;
+  }
+  footer .footer-top .con ul li a {
+    width: 65px;
+    height: 65px;
+    line-height: 59px;
+    font-size: 30px;
+  }
+  footer .footer-top .con ul li {
+    padding: 0 5px;
+  }
+  .media-area .mediabrand ul {
+    margin: 0;
+  }
+  .e_chart_3 {
+    height: 300px !important;
+  }
+  .token-details .owl-controls .owl-buttons div {
+    display: none;
+  }
+  .media-area .mediabrand ul li {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .team-area .team-list {
+    margin-bottom: 50px !important;
+    height: auto !important;
+    text-align: center;
+  }
+  .team-area2 .team-list {
+    overflow: hidden;
+  }
+  .team2-area .team-list {
+    margin-bottom: 50px !important;
+    height: auto !important;
+    text-align: center;
+  }
+  .btc_timer_section_wrapper {
+    padding-top: 60px !important;
+  }
+  .slider-area .slider-content ul li {
+    padding: 0 2px;
+  }
+  .slider-area .slider-content ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 34px;
+  }
+  footer .footer-top .con h2 {
+    margin: 0 0 50px;
+  }
+  .token-details .cart-list .label-chatrs {
+    padding: 50px;
+  }
+  .slider-area .carousel {
+    padding: 30vh 0 25vh;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 680px) {
+  .steps-area .steps-heading p {
+    max-width: calc( 100% - 58px );
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .steps-area .steps-heading p {
+    font-size: 14px;
+  }
+
+  .steps-area .steps-heading .right-con {
+    right: -4px;
+    top: 34px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .video-js {
+    width: 320px;
+    height: 182px;
+  }
+  
+  .steps-area .steps-heading p {
+    font-size: 14px;
+  }
+  .slider-area .carousel {
+    padding: 30vh 0 20vh;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .video-js {
+    width: 300px;
+    height: 155px;
+  }
+  .my-video-dimensions {
+    width: 300px;
+    height: 155px;
+  }
+  .video-area .videos-heding .videos-box .video-js .vjs-big-play-button {
+    top: 24%;
+  }
+  .video-area .videos-heding .videos-box .video-js .vjs-big-play-button {
+    width: 70px;
+    height: 70px;
+  }
+  .video-area
+    .videos-heding
+    .videos-box
+    .video-js
+    .vjs-big-play-button::before {
+    height: 70px;
+    line-height: 70px;
+    width: 30px;
+    background-size: contain;
+  }
+  .video-area .videos-heding h2 {
+    font-size: 30px;
+  }
+  .tokens-area .tokens .token-body .left-btn {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  .tokens-area .tokens .token-body .right-btn {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  .token-details .cart-list .label-chatrs {
+    padding: 30px 25px;
+  }
+  .team-area .team-list {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .team2-area .team-list {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .steps-area .steps-heading h2 {
+    font-size: 24px;
+  }
+  .video-des .deslidt ul li .left-con .box-con .dbox,
+  .video-des .deslidt ul li .right-con .box-con .dbox,
+  .video-des .deslidt ul li .center-con .box-con .dbox {
+    padding: 30px !important;
+  }
+}
+@media (max-width: 1199px) {
+  header .menu-area nav ul li a {
+    font-size: 12px;
+  }
+  .btn1 {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+  }
+  .btn2 {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+  }
+  .btn3 {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+  }
+  header .menu-area {
+    padding-top: 5px;
+  }
+  header .menu-area nav ul li {
+    padding: 0 9px;
+  }
+  #clockdiv div > span,
+  #clockdiv2 div > span {
+    width: 100px;
+    height: 189px;
+    line-height: 182px;
+  }
+  .btc_timer_section_wrapper {
+    padding-top: 90px;
+  }
+  .slider-area .slider-content h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .logo-area {
+    text-align: left;
+  }
+  .logo-area {
+    width: 234px !important;
+    padding-left: 0;
+  }
+  .steps-area .steps-heading .right-con span {
+    display: none;
+  }
+  .tokens-area .tokens .token-body {
+    height: auto;
+  }
+  .media-area .mediabrand ul {
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) and (min-width: 991px) {
+  .rete-list {
+    width: 23% !important;
+    margin-left: 15px !important;
+  }
+}

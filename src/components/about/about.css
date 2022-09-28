@@ -1,0 +1,37 @@
+  .aboutvideo {
+      margin: 0 0;
+      background: transparent;
+  }
+  .aboutvideo .video-js {
+    background: transparent;
+    border-radius: 0px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+    z-index: 99;
+  }
+
+  .aboutvideo .video-js .vjs-big-play-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin: 0 auto;
+}
+ .aboutvideo .video-js .vjs-big-play-button:before {
+    content: "";
+    position: absolute;
+    background: url("../../assets/images/icons/vid.png") no-repeat center;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+ }
+ .aboutvideo .vjs-icon-play:before {
+    display: none;
+ }

@@ -1,0 +1,12 @@
+{
+  "description": "Shareholders Gallery NFT (ERC1155) was officially named and registered on the Ethereum network...", 
+  "external_url": "https://shareholdersgallery.com/static/media/1.94fd1725.png", 
+  "image": "https://shareholdersgallery.com/static/media/1.94fd1725.png", 
+  "name": "Shareholders Gallery",
+  "attributes": [
+    {
+      "trait_type": "Type", 
+      "value": "Certificate"
+    }
+  ]
+}

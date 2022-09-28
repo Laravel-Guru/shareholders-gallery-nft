@@ -1,0 +1,57 @@
+{
+  "name": "shareholders-gallery-nft",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "bootstrap": "^3.4.1",
+    "classnames": "^2.2.6",
+    "echarts": "^4.2.1",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-animated-slider": "^1.1.4",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-countdown-date": "^1.0.0",
+    "react-dom": "^16.8.6",
+    "react-feather": "^1.1.6",
+    "react-modal-video": "^1.2.2",
+    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^4.0.3",
+    "react-slide-toggle": "^0.3.5",
+    "react-toastify": "^8.1.0",
+    "react-wow": "^1.0.0",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "three": "^0.133.1",
+    "three-orbitcontrols": "^2.110.3",
+    "video.js": "^7.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^11.1.1"
+  }
+}
